@@ -1,0 +1,23 @@
+@media only screen and (max-width: 768px) {
+    main {
+        flex-direction: column-reverse;
+    }
+   
+    aside {
+        width: 100vw;
+        margin-bottom: 1rem;
+    }
+    section {
+        width: 100vw;    
+    }
+    article {
+        width: 49.13vw;
+    }
+
+}
+@media only screen and (max-width: 576px) {
+    article {
+        width: 100vw;
+    }
+
+}
